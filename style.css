@@ -1,0 +1,51 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #001f3f;
+    /* background-image: url(feens.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; */
+
+}
+
+.Title{
+    color: rgb(16, 223, 27);
+    font-size: 4em;
+    margin-bottom: 50px;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+    text-shadow: 2px 2px 1px #d49898;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container div{
+    width: 200px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 7em;
+    color: #fff;
+    background-color: #eb121230;
+    backdrop-filter: blur(100px);
+    border: 2px solid #ffffff30;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px #00000030;
+}
+.container div h1{
+    font-size: 0.2em;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 1px #000000;
+}
